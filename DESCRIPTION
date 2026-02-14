@@ -13,7 +13,7 @@ License: MIT + file LICENSE
 URL: https://github.com/truenomad/epiCleanr, https://truenomad.github.io/epiCleanr/
 BugReports: https://github.com/truenomad/epiCleanr/issues
 Encoding: UTF-8
-Depends: R (>= 3.6)
+Depends: R (>= 4.1)
 Imports:
   rio, 
   dplyr, 
