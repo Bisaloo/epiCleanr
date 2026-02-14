@@ -1,7 +1,7 @@
 #' Export Data to Various File Formats
 #'
 #' This function provides a unified interface for exporting data to various
-#' file formats supported by the \code{\link[=rio]{rio::export()}}
+#' file formats supported by the \code{\link[rio:export]{rio::export()}}
 #' function. The format is automatically detected from the file extension to
 #' simplify the exporting process.
 #'
@@ -14,7 +14,7 @@
 #'
 #' @return No return value, called for side effects.
 #'
-#' @seealso \code{\link[=rio]{rio::export()}}, which this function is
+#' @seealso \code{\link[rio:export]{rio::export()}}, which this function is
 #' based on.
 #'
 #' @examples

@@ -15,7 +15,7 @@
 #' @param country_code sed if `use_get_admin_names` is TRUE. A character string
 #'       or numerical value of the country code (e.g., "KE"). This can be
 #'       in various formats such as country name, ISO codes, UN codes, etc.,
-#'       see \code{\link[=countrycode]{countrycode::codelist()}} for the full
+#'       see \code{\link[countrycode:countrycode]{countrycode::codelist()}} for the full
 #'       list of codes and naming conventions used.
 #' @param user_base_only A logical indicating whether to use only the
 #'       user-provided base administrative names (`user_base_admin_names`) for
@@ -53,7 +53,7 @@
 #' print(france_new)
 #'}
 #'
-#' @seealso \code{\link[=countrycode]{countrycode::codelist()}}
+#' @seealso \code{\link[countrycode:countrycode]{countrycode::codelist()}}
 #' for the full list of codes and naming conventions.
 #' @importFrom dplyr select filter mutate all_of
 #' @importFrom tidyselect contains everything

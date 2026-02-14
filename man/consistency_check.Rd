@@ -17,7 +17,7 @@ data. The length of 'tests' and 'cases' must be the same, and each element
 in 'tests' corresponds to an element in 'cases'.}
 }
 \value{
-A \code{\link[=ggplot2]{ggplot2::ggplot()}} object showing
+A \code{\link[ggplot2:ggplot]{ggplot2::ggplot()}} object showing
 the consistency between the number of tests and cases. The x-axis represents
 the cases, and the y-axis represents the tests. Each facet represents a
 disease, and the diagonal line shows where the number of tests equals the
@@ -26,7 +26,7 @@ number of cases.
 \description{
 This function performs a consistency check to ensure that the number of tests
 is greater than the number of cases for given columns in a dataset. It
-returns a \code{\link[=ggplot2]{ggplot2}} object visualizing the results.
+returns a \code{\link[ggplot2:ggplot2-package]{ggplot2}} object visualizing the results.
 }
 \examples{
 # check the consistency between malaria tests and cases

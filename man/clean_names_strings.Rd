@@ -20,7 +20,7 @@ The object with cleaned names.
 \description{
 This function transforms variable names or column names into one of the
 standard cleaned formats specified by the `style` argument. It offers more
-flexibility than \code{\link[=janitor]{janitor::clean_names()}}
+flexibility than \code{\link[janitor:clean_names]{janitor::clean_names()}}
 function by supporting individual strings and providing multiple naming
 styles.
 }
@@ -74,5 +74,5 @@ print(names(cleaned_dt))
 
 }
 \seealso{
-\code{\link[=janitor]{janitor::clean_names()}}
+\code{\link[janitor:clean_names]{janitor::clean_names()}}
 }

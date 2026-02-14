@@ -20,7 +20,7 @@ A data frame or appropriate R object containing the imported data.
 }
 \description{
 This function provides a unified interface for importing data from various
-file formats supported by the \code{\link[=rio]{rio}} package. The format is
+file formats supported by the \code{\link[rio:rio-package]{rio}} package. The format is
 automatically detected from the file extension to simplify the importing
 process.
 }
@@ -49,5 +49,5 @@ data_spss <- import(file_path = file.path(path, "test_data.sav"))
 
 }
 \seealso{
-\code{\link[=rio]{rio::import()}},  which this function is based on.
+\code{\link[rio:import]{rio::import()}},  which this function is based on.
 }

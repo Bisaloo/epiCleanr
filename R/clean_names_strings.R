@@ -2,7 +2,7 @@
 #'
 #' This function transforms variable names or column names into one of the
 #' standard cleaned formats specified by the `style` argument. It offers more
-#' flexibility than \code{\link[=janitor]{janitor::clean_names()}}
+#' flexibility than \code{\link[janitor:clean_names]{janitor::clean_names()}}
 #' function by supporting individual strings and providing multiple naming
 #' styles.
 #'
@@ -63,7 +63,7 @@
 #' cleaned_dt <- clean_names_strings(dt)
 #' print(names(cleaned_dt))
 #'
-#' @seealso \code{\link[=janitor]{janitor::clean_names()}}
+#' @seealso \code{\link[janitor:clean_names]{janitor::clean_names()}}
 #' @importFrom purrr map_chr
 #' @importFrom tibble is_tibble
 #' @importFrom janitor clean_names
