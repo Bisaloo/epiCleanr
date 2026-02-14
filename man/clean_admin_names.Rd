@@ -20,7 +20,7 @@ clean.}
 \item{country_code}{sed if `use_get_admin_names` is TRUE. A character string
 or numerical value of the country code (e.g., "KE"). This can be
 in various formats such as country name, ISO codes, UN codes, etc.,
-see \code{\link[countrycode:countrycode]{countrycode::codelist()}} for the full
+see \code{\link[countrycode:codelist]{countrycode::codelist()}} for the full
 list of codes and naming conventions used.}
 
 \item{admin_level}{A character string indicating the administrative level
@@ -76,6 +76,6 @@ print(france_new)
 
 }
 \seealso{
-\code{\link[countrycode:countrycode]{countrycode::codelist()}}
+\code{\link[countrycode:codelist]{countrycode::codelist()}}
 for the full list of codes and naming conventions.
 }
