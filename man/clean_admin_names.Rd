@@ -40,7 +40,7 @@ Default is FALSE.}
 }
 \value{
 If `report_mode` is set to TRUE, a data frame containing the original
-       admin names and the matched and cleaned admin names with inormation
+       admin names and the matched and cleaned admin names with information
        of the source of data used to clean including the algorithm used,
        else a cleaned list of names is returned.
 }
